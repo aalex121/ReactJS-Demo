@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,4 +29,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.page-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  text-align: center;
+  color: blue;
+}
+
+.FooterDiv {
+  font-size: 30px;
+  text-align: center;
+  color: darkgreen;
 }

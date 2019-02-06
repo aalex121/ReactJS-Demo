@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button';
 
 class App extends Component {
   render() {
@@ -17,8 +18,9 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React, bitch!
           </a>
+          <Button variant="outline-success">YAY!</Button>
         </header>
       </div>
     );
